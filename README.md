@@ -5,3 +5,13 @@ Congestion control in the computer network means preventing excessive accumulati
 In [this](https://github.com/davoudifatemeh/TCP-Congestion-Control/blob/main/Topology.jpg) topology, the bandwidth of each link has been displayed along with the delay of each link:
 
 ## Simulation of congestion control methods in NS2
+These files are NS2 simulation codes:
+* [renoCode.tcl](https://github.com/davoudifatemeh/TCP-Congestion-Control/blob/main/renoCode.tcl)
+* [cubicCode.tcl](https://github.com/davoudifatemeh/TCP-Congestion-Control/blob/main/cubicCode.tcl)
+* [yeahCode.tcl](https://github.com/davoudifatemeh/TCP-Congestion-Control/blob/main/yeahCode.tcl)
+
+## Output Graphs
+[analizer.py](https://github.com/davoudifatemeh/TCP-Congestion-Control/blob/main/analizer.py) draws the following graphs:
+* GoodPut rate
+* Packet loss rate
+* RTT rate
